@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+body > nav > div {
+    color: white;
+    font-size: 26px;
+
+    align-items: center;
+    
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+
+body > div > p {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}  
+
+#message.success {
+    color: green;
+}
+#message.error {
+    color: red;
+}
